@@ -1,10 +1,14 @@
-import { button } from "framer-motion/client"
+import { Route,Routes } from "react-router-dom"
+import HomePage from './Pages/HomePage/HomePage'
+import AuthPage from "./Pages/AurtPage/AuthPage"
 
 function App() {
   return (
     <>
-   
-     <button>  hi</button>
+     <Routes>
+           <Route path="/" element={<HomePage />} />
+           <Route path="/auth" element={<AuthPage />} />
+        </Routes>
     </>
   )
 }
