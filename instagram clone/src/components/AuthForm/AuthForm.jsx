@@ -97,7 +97,7 @@ const AuthForm = () => {
             </Text>
           </Flex>
         </VStack>
-      </Box>
+      </Box>  
 
       <Box
         border="1px solid gray"
@@ -126,3 +126,8 @@ const AuthForm = () => {
 };
 
 export default AuthForm;
+
+
+
+
+
