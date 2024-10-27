@@ -1,12 +1,14 @@
 const withMT = require("@material-tailwind/react/utils/withMT");
- 
+
 module.exports = withMT({
-  content: [],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
-    extend:{},
-    fontfamily:{
-      roboto : ["Roboto","sans-serif"]
-    }
+    extend: {},
+    fontFamily: {  
+      roboto: ["Roboto", "sans-serif"],
+    },
   },
   plugins: [],
 });
