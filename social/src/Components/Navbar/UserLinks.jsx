@@ -28,8 +28,8 @@ const UserLinks = () => {
 </svg>
    </div>
    <div className="mx-4 flex items-center">
-    <Tooltip conntent='Sign Out' placement='bottom'>
-        <Avatar src={avatar} size='sm' alt='avater'></Avatar>
+   <Tooltip title="Sign Out" placement="bottom">
+            <Avatar src={avatar} alt="Avatar"></Avatar>
         </Tooltip> 
         <p className='ml-4 font-roboto text-sm text-black font-medium no-underline'> User</p>
    </div>
