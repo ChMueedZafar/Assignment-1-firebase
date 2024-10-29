@@ -37,8 +37,8 @@ const UserLinks = () => {
       <div className="mx-4 flex items-center">
         <div>
           <img src={avatar} alt='avatar' className="w-8 h-8 rounded-full" />
+          </div>
           <p className='ml-4 font-roboto text-sm text-black font-medium'>User</p>
-        </div>
       </div>
     </div>
   );
